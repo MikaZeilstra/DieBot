@@ -31,7 +31,8 @@ client.on('message', function(msg) {
                     var Type = parseInt(msg.content.split(" ")[2].substr(1));
                 } catch (error) {
                     msg.reply("Uh-oh Wrong arguments this command is used like this:\n"+ 
-                    "```\\roll [Amount] [Type]: Rolls [Amount] die of type [Type] eg \\roll 2 d20. ```")
+                    "```\\roll [Amount] [Type]: Rolls [Amount] die of type [Type] eg \\roll 2 d20. ```");
+                    return;
                 }
                 
                 var result = "Results:\n";
