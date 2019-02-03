@@ -5,13 +5,15 @@
     "main": "bot.js",
     "license": "MIT",
     "author": "MikaZ",
+    "scripts": {
+        "start": "node bot.js"
+    },
     "repository": {
         "type": "git",
         "url": "https://github.com/MikaZeilstra/DieBot.git"
     },
     "dependencies": {
         "discord.js": "^11.4.2",
-        "token": "file:local_modules/token.js"
+        "token": "file:./local_modules/token"
     }
 }
-

@@ -1,0 +1,7 @@
+{
+    "name" : "token",
+    "version" : "1.0.0",
+    "main" : "token.js",
+    "description" : "Contains a constructor with a function \"getToken()\" which returns a token for to login to discord",
+    "dependencies" : {}
+}
