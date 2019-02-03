@@ -14,6 +14,6 @@
     },
     "dependencies": {
         "discord.js": "^11.4.2",
-        "token": "file:./local_modules/token"
+        "dotenv": "^6.2.0"
     }
 }
