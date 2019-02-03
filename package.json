@@ -1,8 +1,19 @@
 {
     "name": "die-bot",
     "version": "1.0.0",
-    "description": "My First Discord Bot",
+    "description": "A Discord bot to roll diffent types of dice",
     "main": "bot.js",
+    "license": "MIT",
     "author": "MikaZ",
-    "dependencies": {}
+    "scripts": {
+        "start": "node bot.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/MikaZeilstra/DieBot.git"
+    },
+    "dependencies": {
+        "discord.js": "^11.4.2",
+        "token": "file:./local_modules/token"
+    }
 }
